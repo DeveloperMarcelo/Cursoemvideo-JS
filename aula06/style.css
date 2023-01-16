@@ -1,0 +1,32 @@
+:root {
+    --bg-color: #eee;
+    --ft-color: aliceblue;
+    --font-site: cursive;
+    --bgtopo-color: #231a55;
+}
+
+body {
+    background-image: linear-gradient(to right, #b7ecf5, #7695eb);
+    margin: 0;
+    font-family: var(--font-site);
+    text-align: center;
+
+}
+
+h1 {
+    font-family: var(--font-site);
+    text-align: center;
+}
+
+p {
+    font-family: var(--font-site);
+    text-align: center;
+    margin-top: 75px;
+}
+
+.topo {
+    background-color: var(--bgtopo-color);
+    color: var(--bg-color);
+    padding: 1px
+}
+
