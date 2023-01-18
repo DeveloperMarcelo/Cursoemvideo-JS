@@ -1,6 +1,9 @@
 body {
    margin: 0;
     box-sizing: border-box;
+    background-image: linear-gradient(to right, #edfc99, #DDBB99);
+    font-family: sans-serif;
+    text-align: center;
 }
 
 div#area {
@@ -11,5 +14,43 @@ div#area {
     width: 200px;
     height: 200px;
     line-height: 200px;
-    text-align: center;
+    
 }
+
+#res {    
+    margin-top: 20px;
+    font-size: 15pt;
+}
+
+#num1, #num2 {
+    width: 100px;
+    font-size: 18pt;
+    outline: 0;
+    border: solid 2px #f0bb0b;
+    background-color: #EEE;
+}
+
+#num1:hover {
+    background-color: #ddd;
+}
+
+#num2:hover {
+    background-color: #ddd;
+}
+
+#botao {
+    width: 100px;
+    font-size: 18pt;
+    background-color: #bbb;
+    border: none !important;
+    
+}
+
+#botao:hover {
+    background-color: #ccc;
+}
+
+
+
+
+

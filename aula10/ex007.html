@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="ex007">Somando Valores</h1>
+    <input type="number" name="num1" id="num1"> +
+    <input type="number" name="num2" id="num2">
+    <input type="button" value="somar" onclick="somar()" id="botao">
+    <br>
+    <div id="res">Resultado</div>
+
+    <script>
+        function somar() {
+            let box1 = document.getElementById('num1')
+            let box2 = document.querySelector('input#num2')
+            let res = document.querySelector('div#res')
+            let num1 = parseInt(box1.value)
+            let num2 = parseInt(box2.value)
+            let s = num1 + num2
+            res.innerHTML = `O resutado entre ${num1} e ${num2} é: <strong>${s}</strong>`
+        }
+    </script>
+</body>
+</html>
