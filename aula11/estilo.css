@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:#eee;
+    font-family: sans-serif;
+}
+
+#txtvel {
+    font-size: 15pt;
+    outline: 0;
+    border: none;
+    background-color: #ccc;
+    color: #000;
+}
+
+.velocidade {
+    font-size: 18pt;
+    
+}
+
+.botao {
+    padding: 15px;
+    font-size: 12pt;
+    border: none;
+    color: #000;
+    background-color: #F4D61D;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: all;
+}
+.botao:hover {
+    background-color: #000;
+    color: bisque;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+#res {
+    margin: 25px 25px 0;
+}

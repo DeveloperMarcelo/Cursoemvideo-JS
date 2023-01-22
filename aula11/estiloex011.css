@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #8ef3ee, #ffd8f0);
+    font-family: sans-serif;
+    font-size: 18pt;
+}
+
+.pergunta {
+    padding: 10px;
+}
+
+.pergunta .pais {
+    margin: 10px 10px;
+    outline: 0;
+    border: none;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.botao {
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+    transition: 0.5s;
+}
+
+.botao:hover {
+    transform: scale(1.2);
+}
+    
