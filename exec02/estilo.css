@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right,#7ebdf8, #0875db );
+    color: #303131;
+    font-family: sans-serif;
+}
+
+.msg {
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0 0;
+}
+
+
+header {
+    color: aliceblue;
+    text-align: center;
+}
+
+section {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+}
+
+.nascimento {
+    outline: 0;
+    border: none;
+    background-color: #ccc;
+    padding: 10px;
+    font-size: 15pt;
+    width: 90px;
+    margin: 0 0 10px;
+}
+
+.botao {
+    padding: 9px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    font-size: 10pt;
+    text-transform: uppercase;
+    border: none;
+    background-color: #7ebdf8;
+    transition: 0.5s all ease-in-out; 
+    border-radius: 20px;
+}
+
+.botao:hover {
+    background-color: #0875db;
+    transform: scale(1.2);
+}
+
+.res {
+    margin: 20px 0 0;
+}
+
+footer {
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+}
+
+.link-pe {
+    text-decoration: none;
+    color: aliceblue;
+    font-style: italic;
+}
+
+.link-pe:hover {
+    color: #000;
+}
