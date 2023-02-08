@@ -6,12 +6,12 @@ function verificar(){
     if(caixaAno.value.length == 0 || Number(caixaAno.value > ano)) {
         window.alert('[ERRO] Verifique os Dados e tente novamente');
     } else {
-        let sexof = document.getElementsByName('sexo');
+        let sexo = document.getElementsByName('sexo');
         let idade = ano - Number(caixaAno.value);
         let genero = ''
         let img = document.createElement('img');
         img.setAttribute('id', 'foto');
-            if(sexof[0].checked) {
+            if(sexo[0].checked) {
                 genero = 'HOMEN';
                 if(idade >=0 && idade < 15 ){
                     //criança
@@ -29,7 +29,7 @@ function verificar(){
                 res.style.textAlign = 'center';
                 res.innerHTML = `Detectamos um ${genero} de ${idade} anos`;
                 res.appendChild(img);
-            } else if(sexof[1].checked){
+            } else if(sexo[1].checked){
                 genero = 'MULHER';
                 if(idade >= 0 && idade < 15) {
                     // criança

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right,#7ebdf8, #0875db );
+    color: #303131;
+    font-family: sans-serif;
+}
+
+.msg {
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0 0;
+}
+
+div {
+    text-align: center;
+}
+
+header {
+    color: aliceblue;
+    text-align: center;
+}
+
+section {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+}
+
+footer {
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+}
+
+.link-pe {
+    text-decoration: none;
+    color: aliceblue;
+    font-style: italic;
+}
+
+.link-pe:hover {
+    color: #000;
+}
